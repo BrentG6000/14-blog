@@ -20,11 +20,6 @@ Blog.init(
             allowNull: false,
             defaultValue: DataTypes.NOW,
         },
-        date_updated: {
-            type: DataTypes.DATE,
-            allowNull: false,
-            defaultValue: DataTypes.NOW,
-        },
         content: {
             type: DataTypes.STRING,
             allowNull: false,
