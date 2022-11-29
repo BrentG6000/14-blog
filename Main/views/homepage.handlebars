@@ -4,14 +4,14 @@
   <div class="col-md-5">
     <h2>
       <!-- Call helper function with triple brackets to render the emoji span as HTML -->
-      {{blog.name}}
+      {{blog.title}}
     </h2>
     <p>
       <span for="img" aria-label="money">💲</span>
       <!-- Pass needed_funding value to the helper function -->
       <span>{{blog.content}}</span>
     </p>
-    <p>Created by {{blog.user.name}} on {{format_date blog.date_published}}</p>
+      <p>Created by {{blog.user.name}} on {{format_date blog.date_published}}</p>
   </div>
   <div class="col-md-7">
     <p>
@@ -19,3 +19,5 @@
   </div>
 </div>
 {{/each}}
+
+<script src="./js/homepage.js"></script>
